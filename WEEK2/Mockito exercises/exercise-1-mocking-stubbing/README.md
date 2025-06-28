@@ -6,10 +6,10 @@ This project demonstrates how to use **Mockito** in **JUnit 5** to test a servic
 
 ##  What I Learned
 
-- ✅ How to create a mock using `Mockito.mock()`
-- ✅ How to stub method calls using `when(...).thenReturn(...)`
-- ✅ How to inject the mock into your service
-- ✅ How to verify the output using `assertEquals`
+- How to create a mock using `Mockito.mock()`
+- How to stub method calls using `when(...).thenReturn(...)`
+- How to inject the mock into your service
+- How to verify the output using `assertEquals`
 
 ---
 
