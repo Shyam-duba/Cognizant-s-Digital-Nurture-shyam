@@ -1,10 +1,10 @@
-# 🔍 Mockito Mocking Example – External API Service
+#  Mockito Mocking Example – External API Service
 
 This project demonstrates how to use **Mockito** in **JUnit 5** to test a service class that depends on an external API.
 
 ---
 
-## 🧪 What You'll Learn
+##  What I Learned
 
 - ✅ How to create a mock using `Mockito.mock()`
 - ✅ How to stub method calls using `when(...).thenReturn(...)`
@@ -13,7 +13,7 @@ This project demonstrates how to use **Mockito** in **JUnit 5** to test a servic
 
 ---
 
-## 📄 Class Summary
+##  Class Summary
 
 ### ExternalApi.java
 
@@ -21,10 +21,9 @@ This project demonstrates how to use **Mockito** in **JUnit 5** to test a servic
 public interface ExternalApi {
     String getData();
 }
+```
 MyService.java
-java
-Copy
-Edit
+```java
 public class MyService {
     private ExternalApi externalApi;
     public MyService(ExternalApi externalApi) {
@@ -34,7 +33,8 @@ public class MyService {
     public String fetchData() {
         return externalApi.getData();
     }
-}```
+}
+```
 
 MyServiceTest.java
 
@@ -47,16 +47,17 @@ MyServiceTest.java
     String result = service.fetchData(); // Call method
 
     assertEquals("Mock Data", result); // Verify result
-}```
+}
+```
 
 Tests run: 1, Failures: 0, Errors: 0
 BUILD SUCCESS
-📦 Dependencies Used
+ Dependencies Used
 JUnit 5 – for writing unit tests
 
 Mockito – for mocking and stubbing
 
-🔁 Use Case
+ Use Case
 This pattern is commonly used when:
 
 Testing services that call external APIs
