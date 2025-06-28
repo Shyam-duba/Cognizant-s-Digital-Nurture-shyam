@@ -70,6 +70,7 @@ END //
 
 DELIMITER ;
 ```
+![image](https://github.com/user-attachments/assets/fd3b1412-0518-4f8a-b99b-3ec70c2fc749)
 
 
 image.png
