@@ -4,7 +4,7 @@ This is a simple Java project that demonstrates how to write and run unit tests 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <pre>SetupJunit/
 ├── pom.xml
@@ -23,7 +23,7 @@ This is a simple Java project that demonstrates how to write and run unit tests 
 
 ---
 
-## 📦 Multiply.java
+##  Multiply.java
 
 This is the class we want to test.
 
