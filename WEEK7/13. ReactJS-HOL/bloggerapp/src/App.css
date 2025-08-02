@@ -1,0 +1,33 @@
+/* App.css */
+
+/* Flex layout for the 3 sections */
+.main-layout {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Apply common styling to all 3 sections */
+.mystyle1, .st2, .v1 {
+  width: 30%;
+  padding: 20px;
+  border-left: 4px solid green;
+  box-sizing: border-box;
+}
+
+/* Headings and spacing */
+.mystyle1 h1, .st2 h1, .v1 h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.mystyle1 b, .st2 b, .v1 b {
+  display: block;
+  margin-top: 10px;
+}
+
+.mystyle1 p, .st2 p, .v1 p {
+  margin: 6px 0;
+}
